@@ -10,4 +10,8 @@ API endpoints:
 - FRM(ORM) library: Slick
 - Database: H2
 
-Added ability to run in docker: docker-compose up --build
+To run in docker:
+
+In SBT shell: ;clean;reload;docker:stage
+Then: docker-compose up --build
+The service in the container is available at port 80.
