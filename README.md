@@ -1,6 +1,6 @@
 Web Service for booking available rooms.
 
-Minimal abilities: no error handling, configuration, logging
+Minimal abilities: no error handling, configuration, logging. General web service testing added only.
 
 API endpoints:
 * GET \rooms\bookings?bookingStart=HH:MM:SS&bookingEnd=HH:MM:SS
@@ -10,4 +10,4 @@ API endpoints:
 - FRM(ORM) library: Slick
 - Database: H2
 
-Docker
+Added ability to run in docker: docker-compose up --build
