@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  scala-test1:
+    build: ./target/docker/stage
+    ports:
+      - 80:8080
